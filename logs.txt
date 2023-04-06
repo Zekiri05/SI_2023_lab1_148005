@@ -1,0 +1,102 @@
+Odd numbers
+
+Window@Meti MINGW64 ~/Desktop/lab/SI_2023_lab1_148005 (master)
+$ git commit -m "Initial commit"
+[master a53ed7e] Initial commit
+ 1 file changed, 1 insertion(+)
+ create mode 100644 README.md
+
+Window@Meti MINGW64 ~/Desktop/lab/SI_2023_lab1_148005 (master)
+$ git branch -M master
+
+Window@Meti MINGW64 ~/Desktop/lab/SI_2023_lab1_148005 (master)
+$ git push -u origin master
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 315 bytes | 315.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/Zekiri05/SI_2023_lab1_148005.git
+   42cc4b1..a53ed7e  master -> master
+branch 'master' set up to track 'origin/master'.
+
+Window@Meti MINGW64 ~/Desktop/lab/SI_2023_lab1_148005 (master)
+$ git brench filterOddNumbers
+git: 'brench' is not a git command. See 'git --help'.
+
+The most similar command is
+        branch
+
+Window@Meti MINGW64 ~/Desktop/lab/SI_2023_lab1_148005 (master)
+$ git branch filterOddNumbers
+
+Window@Meti MINGW64 ~/Desktop/lab/SI_2023_lab1_148005 (master)
+$ git branch
+  filterOddNumbers
+* master
+
+Window@Meti MINGW64 ~/Desktop/lab/SI_2023_lab1_148005 (master)
+$ git checkout filterOddNumbers
+Switched to branch 'filterOddNumbers'
+
+Window@Meti MINGW64 ~/Desktop/lab/SI_2023_lab1_148005 (filterOddNumbers)
+$ git add SILab1.java
+
+Window@Meti MINGW64 ~/Desktop/lab/SI_2023_lab1_148005 (filterOddNumbers)
+$ git log
+commit a53ed7e8cc8320b5d0618f7691f0bec12b7254a6 (HEAD -> filterOddNumbers, origin/master, master)
+Author: Zekiri05 <muhametzekiri32@gmail.com>
+Date:   Thu Apr 6 23:58:22 2023 +0200
+
+    Initial commit
+
+commit 42cc4b13d6e6ddcef83cf0daaad564f1046defc8
+Author: Zekiri05 <muhametzekiri32@gmail.com>
+Date:   Thu Apr 6 23:52:09 2023 +0200
+
+    Add java class
+
+Window@Meti MINGW64 ~/Desktop/lab/SI_2023_lab1_148005 (filterOddNumbers)
+$ ^C
+
+Window@Meti MINGW64 ~/Desktop/lab/SI_2023_lab1_148005 (filterOddNumbers)
+$ ^C
+
+Even numbers
+
+Window@Meti MINGW64 ~/Desktop/lab/SI_2023_lab1_148005 (filterOddNumbers)
+$ git checkout master
+Switched to branch 'master'
+M       SILab1.java
+Your branch is up to date with 'origin/master'.
+
+Window@Meti MINGW64 ~/Desktop/lab/SI_2023_lab1_148005 (master)
+$ git branch sumEvenNumbers
+
+Window@Meti MINGW64 ~/Desktop/lab/SI_2023_lab1_148005 (master)
+$ git branch
+  filterOddNumbers
+* master
+  sumEvenNumbers
+
+Window@Meti MINGW64 ~/Desktop/lab/SI_2023_lab1_148005 (master)
+$ git checkout sumEvenNumbers
+Switched to branch 'sumEvenNumbers'
+M       SILab1.java
+
+Window@Meti MINGW64 ~/Desktop/lab/SI_2023_lab1_148005 (sumEvenNumbers)
+$ git log
+commit a53ed7e8cc8320b5d0618f7691f0bec12b7254a6 (HEAD -> sumEvenNumbers, origin/master, master, filterOddNumbers)
+Author: Zekiri05 <muhametzekiri32@gmail.com>
+Date:   Thu Apr 6 23:58:22 2023 +0200
+
+    Initial commit
+
+commit 42cc4b13d6e6ddcef83cf0daaad564f1046defc8
+Author: Zekiri05 <muhametzekiri32@gmail.com>
+Date:   Thu Apr 6 23:52:09 2023 +0200
+
+    Add java class
+
+Window@Meti MINGW64 ~/Desktop/lab/SI_2023_lab1_148005 (sumEvenNumbers)
