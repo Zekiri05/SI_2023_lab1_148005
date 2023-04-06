@@ -1,4 +1,3 @@
-Odd Numbers fix %2==0
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
